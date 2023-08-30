@@ -18,14 +18,15 @@ export default function StudentPage() {
   const { id } = useParams();
   const { getStudentById, isLoading } = useStudents();
   const student = getStudentById(id);
+  const bookmarkStatus = getBookmarkStatus(id);
+  const { getFavorite } = useStudents();
 
   useEffect(() => {
     if (!student && !isLoading) {
       navigate("/");
     }
   }, [student, isLoading, navigate]);
-  const bookmarkStatus = getBookmarkStatus(id);
-  const { getFavorite } = useStudents();
+
   return (
     student && (
       <>
@@ -112,7 +113,7 @@ export default function StudentPage() {
                 </p>
                 <p className="dark:text-slate-100 ml-[10px] mb-[10px]">
                   <span className="dark:text-slate-400 text-[#979797]">
-                    Предыстория:
+                    Предистория:
                   </span>{" "}
                   {student.infoBefore}
                 </p>
