@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './playground.css'
-import {winCombination} from '../utils/winCombination'
+import {winCombination} from './../utils/winCombination'
 
 const Playground = () => {
   const [gameOver, setGameOver] = useState(false)
