@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e14942c4.css",
+    "main.js": "./static/js/main.4ead61ca.js",
+    "static/media/team-Favicon.svg": "./static/media/team-Favicon.cf0e118fb04215691e8b0477a5e154dd.svg",
+    "static/media/vkLogo.svg": "./static/media/vkLogo.b055ed81b5f54e64dbff6981f9551adf.svg",
+    "index.html": "./index.html",
+    "static/media/tgLogo.svg": "./static/media/tgLogo.0b6720a39e7cab514b41d3ac66eaeaa6.svg",
+    "main.e14942c4.css.map": "./static/css/main.e14942c4.css.map",
+    "main.4ead61ca.js.map": "./static/js/main.4ead61ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e14942c4.css",
+    "static/js/main.4ead61ca.js"
+  ]
+}
