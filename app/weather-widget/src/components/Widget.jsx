@@ -1,12 +1,12 @@
 import React, {useRef, useState } from 'react'
 import './widget.css'
-import {getWeather} from '../services/http.service'
-import search_icon from '../assets/search.svg'
-import humidity_icon from '../assets/humidity.svg'
-import wind_icon from '../assets/wind.svg'
-import loading_icon from '../assets/loading.svg'
-import arrowUp_icon from '../assets/arrow-up.svg'
-import arrowDown_icon from '../assets/arrow-down.svg'
+import { getWeather } from '../services/http.service'
+import search_icon from './../assets/search.svg'
+import humidity_icon from './../assets/humidity.svg'
+import wind_icon from './../assets/wind.svg'
+import loading_icon from './../assets/loading.svg'
+import arrowUp_icon from './../assets/arrow-up.svg'
+import arrowDown_icon from './../assets/arrow-down.svg'
 
 const Widget = () => {
   const [weatherData, setWeatherData] = useState(null)
