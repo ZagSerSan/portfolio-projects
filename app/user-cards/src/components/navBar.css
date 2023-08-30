@@ -1,5 +1,5 @@
 .darkmode-btn {
-  background: url('../images/darkmode-black.png');
+  background: url('./../images/darkmode-black.png');
   background-size: 18px 18px;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -16,7 +16,7 @@
 }
 
 .darkmode-btn.active {
-  background: url('../images/darkmode-white.png');
+  background: url('./../images/darkmode-white.png');
   background-size: 18px 18px;
   background-position: 100% 100%;
   background-repeat: no-repeat;

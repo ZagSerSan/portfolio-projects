@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { useStudents } from "../hooks/useStudents";
 import { transformAge } from "../utils/transformAge";
 import ProgressBar from "../components/progressBar";
-import { tgLogo, vkLogo } from "../images";
+import { tgLogo, vkLogo } from "./../images";
 import MainSlider from "../components/mainSlider";
 import Badge from "../components/badge";
 import { randomColor } from "../utils/randomColor";
