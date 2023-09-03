@@ -1,0 +1,19 @@
+.instagram-inner-right {
+  p {
+    @include fontFWSCL("Inter", 400, 16px, #f5f0ec, 150%);
+  }
+  a {
+    background-color: #1b5b31;
+    color: #f5f0ec;
+    border: 1px #f5f0ec solid;
+    border-radius: 200px;
+    padding: 12px 24px;
+    transition: all 0.2s ease 0s;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #f5f0ec;
+      color: #1b5b31;
+    }
+  }
+}

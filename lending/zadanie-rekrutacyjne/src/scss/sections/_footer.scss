@@ -1,0 +1,25 @@
+.footer {
+  background-color: #111;
+  color: #f5f0ec;
+}
+
+.footer-top {
+  @include fontFWSC("Inter", 400, 16px, #f5f0ec);
+  border-bottom: 2px #f5f0ec solid;
+
+  button {
+    background-color: #1b5b31;
+    color: #f5f0ec;
+    border-radius: 200px;
+    padding: 12px 24px;
+    transition: all 0.2s ease 0s;
+
+    &:hover {
+      background-color: #f5f0ec;
+      color: #1b5b31;
+    }
+  }
+}
+.footer-bottom {
+  @include fontFWSC("Inter", 400, 14px, #f5f0ec);
+}
